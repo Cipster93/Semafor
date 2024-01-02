@@ -14,5 +14,5 @@ function changeCollor(button) {
 
 setInterval(function() {
     let button = document.getElementById('Pres');
-    ChangeCollor(button);
+    changeCollor(button);
 }, 10000);
