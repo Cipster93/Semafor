@@ -1,5 +1,5 @@
-var x = 1;
-function ChangeCollor(button) {
+let x = 1;
+function changeCollor(button) {
     if (x == 1) {
         button.style.background = "red";
         ++x;
@@ -11,7 +11,8 @@ function ChangeCollor(button) {
         x -= 2;
     }
 }
+
 setInterval(function() {
-    var button = document.getElementById('Pres');
+    let button = document.getElementById('Pres');
     ChangeCollor(button);
 }, 10000);
